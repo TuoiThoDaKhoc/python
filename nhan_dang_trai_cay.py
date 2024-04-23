@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import cv2
-st.title('Nhận dạng trái cây')
+st.title('Nhận dạng trái câyy')
 
 try:
     if st.session_state["LoadModel"] == True:
